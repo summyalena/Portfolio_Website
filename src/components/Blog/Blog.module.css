@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+    padding-block: 4rem;
+}
+
+.Box {
+    margin: 0.7rem 0;
+    position: relative;
+}
+
+.miniBox {
+   border-radius: 0.1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   color: var(--main-color);
+   font-family: 'Playfair Display', sans-serif ;
+   border: 0.7px solid var(--main-color);
+}
+
+.miniBox p {
+    padding: 1rem;
+    text-align: left;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.miniBox img {
+    width: 100%;
+    object-fit: contain;
+} 
+
+/* @media (min-width: 230px) and (max-width: 460px){
+    .Box {
+        width: 100%;
+    }
+     .miniBox {
+         width: 100%;
+     }
+}
+
+@media (min-width: 460px) and (max-width: 760px){
+    .Box {
+        width: 100%;
+    }
+     .miniBox {
+         width: 100%;
+     }
+}
+
+@media (min-width: 760px) and (max-width: 940px){
+    .Box {
+        width: 100%;
+    }
+     .miniBox {
+         width: 100%;
+     }
+} */
