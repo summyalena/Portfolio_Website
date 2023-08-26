@@ -16,10 +16,10 @@ const BackButton = () => {
 
   const Back = styled.button`
     background: #e4e1e1ad;
-    height: 2rem;
-    padding: 3px 3px;
+    height: 3rem;
+    padding: 3px;
     cursor: pointer;
-    width: 2rem;
+    width: 3rem;
     border: none;
     position: fixed;
     top: 90%;
