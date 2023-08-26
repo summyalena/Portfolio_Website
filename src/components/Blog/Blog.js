@@ -88,13 +88,13 @@ const Blog = () => {
          loop={true}
         className={styles.Box}>
          {Blogs.map((blog)=>
-         <SwiperSlide  key={blog.id}>
-         <div className={styles.miniBox}>
+         <SwiperSlide>
+         <div key={blog.id} className={styles.miniBox}>
           <img src={blog.image} alt={blog.name}/>
             <p>{blog.description}</p>
          
 
-          <Button href={blog.link}>
+          <Button href={blog.link} target={blog.link}>
             Click to see <span className={styles.article}>Article!</span>
           </Button>
           </div>

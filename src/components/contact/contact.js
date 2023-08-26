@@ -21,27 +21,21 @@ const Contact = () => {
          </Header>
         <form className={styles.form}>
              <p> You can reach out to me for any questions or propositions. I will be pleased to hear from you. </p>
-           <div className={styles.coInput}>
-            <div className={styles.input}>
-                  <label htmlFor="name">First Name</label>
-                  <input name="first name" type="name" placeholder='Enter First Name' />
+             <div className={styles.inputn}>
+                  <label id="name_label" htmlFor="name">Name</label>
+                  <input id="name" name="name" type="name" placeholder='Enter Name' />
               </div>
-           
-              <div className={styles.input}>
-                  <label id="name_label" htmlFor="name">Second Name</label>
-                  <input id="email" name="name" type="text" placeholder='Enter Second Name' />
-              </div>
-               </div>
               <div className={styles.inputn}>
                   <label id="email_label" htmlFor="email">Email Address</label>
                   <input id="email" name="email" type="email" placeholder='Enter Email' />
               </div>
 
-              <div className={styles.inputn}>
+              {/* <div className={styles.inputn}>
                 <label id="text_label" htmlFor="message">Message</label>
                 <textarea  width="200px" height="200px" placeholder='Enter Message'/>
-              </div>
-              <button className={styles.button} type='submit'>Send</button>
+              </div> */}
+              <button className={styles.button} type='submit'>
+                <a href="mailto:summyalena@gmail.com">Reach out to Me</a></button>
         </form>
         </div>  
     </div>
