@@ -4,9 +4,9 @@ const Blogs = [
     {
         id: 1,
         name: 'Deploying my first project on Vercel',
-        description: 'This talks about to deploy your Nextjs first project on Vercel',
+        description: 'This talks about how to deploy a nextjs project to vercel and errors one can encounter',
         image: medium,
-        link: 'https://www.google.com'
+        link: 'https://medium.com/@LenaDev'
     },
 
 ]

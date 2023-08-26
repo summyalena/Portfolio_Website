@@ -23,6 +23,10 @@ const NavProject = styled.a`
   :&active {
     color: var(--background-color);
   }
+  
+  &:hover, &:focus {
+    color: rgba(200, 222, 222, 0.5);
+  }
 `
   return (
     <div>
