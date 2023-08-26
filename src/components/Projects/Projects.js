@@ -36,7 +36,7 @@ const customStyles = {
     right: 'auto',
     bottom: 'auto',
     transform: 'translate(-50%, -50%)',
-    width: '80%',
+    width: '60%',
     borderRadius: 'none',
     height: '50%',
     backgroundColor: 'var(--background-color)'
@@ -85,7 +85,6 @@ const Projects = () => {
        pagination={{ clickable: true }}
        effect={'coverflow'}
        grabCursor={true}
-       loop={true}
        centeredSlides={true}
        coverflowEffect={{
          rotate:0,

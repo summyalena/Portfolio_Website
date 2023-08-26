@@ -33,7 +33,7 @@ code {
   display: none;
 }
 
-.close{
+.close {
   width: 25px;
   height: 25px;
   padding: 0.2rem;
@@ -51,7 +51,6 @@ code {
       opacity: 1;
     }
  }
-
 
 
 .progress-bar {
@@ -94,7 +93,7 @@ code {
 }
 
 @media (min-width: 260px) and (max-width: 440px){
-  .next{
+  .next {
     display: none;
     
   }
