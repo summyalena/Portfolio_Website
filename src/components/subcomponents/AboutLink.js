@@ -15,6 +15,10 @@ const AboutLink = () => {
     const NavAbout = styled.a`
        text-decoration: none;
        color: #fee715;
+
+       &:hover, &:focus {
+        color: rgba(200, 222, 222, 0.5);
+      }
     `
   return (
     <div>

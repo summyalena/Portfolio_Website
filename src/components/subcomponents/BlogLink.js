@@ -17,6 +17,10 @@ const BlogLink = () => {
 const NavBlog = styled.a`
    text-decoration: none;
    color: var(--main-color);
+
+   &:hover, &:focus {
+    color: rgba(200, 222, 222, 0.5);
+  }
 `
 
   return (
