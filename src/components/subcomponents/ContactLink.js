@@ -24,9 +24,9 @@ const ContactLink = () => {
  
   return (
     <Contact>
-          <NavContact href='#contact'>
+      <NavContact href='#contact'>
        Contact 
-       </NavContact>
+      </NavContact>
         </Contact>
   )
 }
