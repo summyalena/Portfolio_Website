@@ -24,7 +24,7 @@ function NavBar() {
      </a>
      </div>
      <div className={styles.links}>
-     <a className={styles.SayHi} href='/Contact'>Say hi!</a>
+     <a className={styles.SayHi} href='#contact'>Say hi!</a>
      </div>
     </div>
     <Burger  className={styles.burger} open={open} setOpen={setOpen}/>
