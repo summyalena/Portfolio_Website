@@ -1,7 +1,7 @@
-import Image1 from "./tastymeals.png";
+import Image1 from "./weddingpic.PNG";
 import Image2 from "./heroorphanage.JPG";
 import Image3 from "./techlandingpage.JPG";
-import Image4 from "./yputh.JPG";
+import Image4 from "./awaritse.PNG";
 import Image5 from "../assets/twitter clone.JPG";
 
 const Work = [
@@ -17,39 +17,48 @@ const Work = [
   },
   {
     id: 2,
-    name: "Tasty Meals",
+    name: "Wedding Website",
     description:
-      "This is a web Application that does the basic booking functionalities online for home made meals in Nigeria. Built using react and Tailwind CSS.",
+      "This is a wedding website that shows all the information of the wedding for a client. This was built in Typescript",
     image: Image1,
-    link: "https://tastmeals.netlify.app/",
-    techStack: "React.js | Vanilla CSS | Firebase ",
-    githubLink: "https://github.com/summyalena/Tasty-Meals",
+    link: "https://wedding-app-dusky.vercel.app/",
+    techStack: "React.js | Typescript | Vanilla CSS",
+    githubLink: "Private Repo",
   },
-
   {
     id: 3,
-    name: "Youth Summit",
-    description:
-      "This is a website that advertises a youth conference or summit. This was built with Html, CSS and Javascript.  ",
-    image: Image4,
-    link: "https://summyalena.github.io/YouthSummit/",
-    techStack: "Javascript | CSS | HTML ",
-    githubLink: "https://github.com/summyalena/YouthSummit",
+    name: 'Afrobean Shopping Website',
+    description: 'This is a shopping website for agricultural Products',
+    image: Image1,
+    link: "https://afro-bean.vercel.app/",
+    techStack: "Reactjs | Typescript | Vanilla CSS | Tailwind CSS",
+    githubLink: "Private Repo"
   },
 
   {
     id: 4,
+    name: "Awaritse Limited Website",
+    description:
+      "This is a website that displays the information of a client's company. It also has a admin dashboard that stores their blog data and manages it. It is built in Typescript",
+    image: Image4,
+    link: "https://awaritse-client.vercel.app/",
+    techStack: "Typescript | CSS | React js | Tailwind CSS",
+    githubLink: "https://github.com/DuaneDave/Awaritse-client",
+  },
+
+  {
+    id: 5,
     name: "Orphanage Home",
     description:
       "This is a website created to shares awareness of an orphanage home in Enugu city",
     image: Image2,
-    link: " https://orphanage.vercel.app ",
+    link: " https://orphanage.vercel.app",
     techStack: "Javascript | Next.js | CSS ",
     githubLink: "https://github.com/summyalena/Orphanage",
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Webxiel Landing page",
     description:
       "This is a website created to show the profile of a new tech startup in Nigeria",
