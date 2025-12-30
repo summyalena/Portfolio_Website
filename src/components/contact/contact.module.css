@@ -79,16 +79,19 @@ label {
 
 .button a {
     text-decoration: none;
-    color: rgb(180, 169, 169);
+    color: var(--background-color);
     width: 100%;
     height: 100%;
 }
 
 .button:hover {
-    color: var(--main-color);
     background-color: var(--background-color);
     border: 0.1rem #FEE715FF solid;
     animation: 2s ease-in;
+    z-index: 100;
+}
+
+.button:hover a {
     color: var(--main-color);
 }
 

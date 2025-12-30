@@ -29,11 +29,6 @@ const Contact = () => {
                   <label id="email_label" htmlFor="email">Email Address</label>
                   <input id="email" name="email" type="email" placeholder='Enter Email' />
               </div>
-
-              {/* <div className={styles.inputn}>
-                <label id="text_label" htmlFor="message">Message</label>
-                <textarea  width="200px" height="200px" placeholder='Enter Message'/>
-              </div> */}
               <button className={styles.button} type='submit'>
                 <a href="mailto:summyalena@gmail.com">Reach out to Me</a></button>
         </form>
