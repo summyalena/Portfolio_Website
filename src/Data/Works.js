@@ -8,25 +8,6 @@ import Image6 from "../assets/AngularBusTicketing.PNG";
 const Work = [
   {
     id: 1,
-    name: 'Bus Ticketing App',
-    description: 'This is a bus ticketing app that allows users to book bus tickets online. It has features like bus schedule, seat selection. Built with Angular and SCSS.',
-    image: Image6,
-    link: 'https://bus-ticketing-app-by5y.vercel.app/search',
-    techStack: 'Angular | SCSS',
-    githubLink: 'https://github.com/summyalena/bus-ticketing-app'
-  },
-  {
-    id: 2,
-    name: "Twitter Clone",
-    description:
-      "Twitter-clone is a web app that is a replica of the UI of twitter social media web app. I added some basic functionalities like comments, posting and liking a post. Built with Next.js, tailwind CSS, Next Authentication and firebase database. ",
-    image: Image5,
-    link: "https://twitter-clone-alena.vercel.app/",
-    techStack: "Next.js | Tailwind CSS | Firebase ",
-    githubLink: "https://github.com/summyalena/Twitter-clone",
-  },
-  {
-    id: 3,
     name: "LegderView Fintech Dashboard",
     description:
       "This is Fintech dashboard web application for a client. It displays various financial data in form of charts and graphs. It is built using React.js and Typescript.",
@@ -34,6 +15,27 @@ const Work = [
     link: "https://fintech-dashboard-sand.vercel.app/",
     techStack: "React.js | Typescript | Recharts | CSS",
     githubLink: "https://github.com/summyalena/fintech-dashboard",
+  },
+  
+  {
+    id: 2,
+    name: "Bus Ticketing App",
+    description:
+      "This is a bus ticketing app that allows users to book bus tickets online. It has features like bus schedule, seat selection. Built with Angular and SCSS.",
+    image: Image6,
+    link: "https://bus-ticketing-app-by5y.vercel.app/search",
+    techStack: "Angular | SCSS",
+    githubLink: "https://github.com/summyalena/bus-ticketing-app",
+  },
+  {
+    id: 3,
+    name: "Twitter Clone",
+    description:
+      "Twitter-clone is a web app that is a replica of the UI of twitter social media web app. I added some basic functionalities like comments, posting and liking a post. Built with Next.js, tailwind CSS, Next Authentication and firebase database. ",
+    image: Image5,
+    link: "https://twitter-clone-alena.vercel.app/",
+    techStack: "Next.js | Tailwind CSS | Firebase ",
+    githubLink: "https://github.com/summyalena/Twitter-clone",
   },
   // {
   //   id: 3,
