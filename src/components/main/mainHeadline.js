@@ -3,8 +3,8 @@ import styled, { keyframes } from "styled-components";
 import ContactLink from "../subcomponents/ContactLink";
 import AboutLink from "../subcomponents/AboutLink";
 import FadeIn from "../../hooks/fadeIn";
-// import CV from '../../assets/Assumpta_Okolike__Resume_.pdf'
-import CV from '../../assets/Assumpta_Okolike_Resume_Professional.pdf';
+// import CV from '../../assets/Assumpta_Okolike_Resume_Professional.pdf';
+import CV from '../../assets/Assumpta_Okolike_FrontendEngineer_Professional_Resume_2026.pdf';
 import Avatar from "../../images/AvatarMaker(1).png";
 
 
